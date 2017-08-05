@@ -1,0 +1,188 @@
+﻿
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, pre,
+a, abbr, acronym, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, ol, ul,
+fieldset, form, label, legend {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+}
+
+
+body {
+	line-height: 1;
+	color: black;
+	background: transparent;
+}
+
+/* Structure */
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.7em;
+}
+
+hr {
+	margin-bottom: 35px;
+	border: 0;
+	border-bottom: 2px solid #777;
+        height: 35px;
+	width: 620px;
+	color: #fff;
+	clear: both;
+}
+
+#wrapper {
+	width: 950px;
+	margin: 0px 0 140px 10px;
+	padding: 10px 10px 0;
+	background: #fff;
+	background: rgba(255,255,255,0.88);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.header {
+	float: left;
+	width: 950px;
+	border-bottom: 2px solid #777;
+	margin: 0;
+}
+#logo {
+	float: left;
+	width: auto;
+	padding: 18px 0 34px 0;
+}
+
+
+
+#logo h2 {
+	font-size: 18px;
+	font-weight: 200;
+	padding: 12px 4px 0 0;
+}
+#header-image {
+	clear: both;
+	border-top: 6px solid #333;
+	margin-bottom: 10px;
+}
+#blurb em {
+	font-style: italic;
+}
+
+
+/* Links */
+
+
+a {
+	text-decoration: none;
+	color: #a00;
+	font-weight: 700;
+}
+
+h1 {
+	text-decoration: none;
+	color: #a00;
+	font-weight: 700;
+}
+
+.header a:hover,
+#blurb a:hover,
+#sidebar a:hover,
+#footer a:hover,
+.content a:hover {
+	color: #ca1e00;
+	border-bottom: 1px dotted #ca1e00;
+}
+
+
+
+
+/* Content */
+
+#blurb {
+	font-family: Georgia, serif;
+	height: auto;
+	border-bottom: 1px dotted #ccc;
+	width: 100%;
+	float: right;
+	padding: 35px 0;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 120%;
+}
+.content {
+	width: 930px;
+	float: left;
+	padding: 0 0 30px 20px;
+	min-height: 420px;
+	overflow: hidden;
+}
+
+div.attachment h1,
+div.attachment h1 a {
+	font-family: Georgia, serif;
+	font-size: 28px;
+	margin: 0;
+	font-weight: normal;
+	line-height: 32px;
+}
+
+.gallery a,
+.gallery a:hover {
+	border: none;
+}
+.gallery a:hover img,
+body.attachment .navigation a:hover img {
+	background: #333;
+	border-color: #222 !important;
+}
+
+/* Footer */
+
+#footer {
+	width: 900px;
+	clear: both;
+	text-align: center;
+	padding: 30px 0 0;
+}
+
+
+/* Attachments */
+
+body.attachment .content {
+	width: 100%;
+	border-right: none;
+}
+body.attachment .attachment img {
+        margin: 20px auto 0;
+	display: block;
+	border: none;
+	border-top: 6px solid #222;
+	padding: 0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	background: transparent;
+	
+}
+body.attachment #wrapper .attachment small + a {
+	border-bottom: none;
+}
+body.attachment .navigation {
+	width: 620px;
+	margin: 0 auto 20px;
+	border: none;
+	overflow: hidden;
+}
+body.attachment .navigation a {
+	border: none;
+}
